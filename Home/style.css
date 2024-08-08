@@ -27,7 +27,7 @@ li:hover {
 }
 
 .menu{
-    
+    color:#022712 ;
     background-color: #4c7841;
     position: fixed;
     top: 0;
@@ -93,6 +93,15 @@ button:hover {
     align-items: left;
 }
 
+.section01-right-div > h2{
+    color: #022712;
+    
+}
+
+.section01-right-div > p{
+    color: #4c7841;
+}
+
 .img-style-section01 {
     width: 500px;
     height: 500px;
@@ -151,7 +160,7 @@ button:hover {
 /* -------------------------------------------------- SEÇÃO 03 --------------------------------------------- */
 
 #section03 {
-    color: #ffff;
+    color:  #b4ceac;
     background: rgb(16, 59, 32);
     display: flex;
     align-items: center;
@@ -163,7 +172,7 @@ button:hover {
     padding-bottom: 80px;
     padding-left: 20px;
     padding-right: 20px;
-    background-image: url(../assets/images/igm06.jpg);
+    background-image: url(../assets/images/img02.webp);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -192,10 +201,10 @@ button:hover {
     display: flex;
     width: 400px;
     padding: 20px 30px;
-    border: #ffff ;
-    border: 2px solid #ffff;
+    border:  #b4ceac ;
+    border: 2px solid  #b4ceac;
     border-radius: none;
-    color: #ffff;
+    color:  #b4ceac;
     font-size: 18px;
     font-weight: bold;
     transition: all 200ms linear;
@@ -279,6 +288,12 @@ footer > a {
   justify-content: center;
   align-items: center;
   gap: 1vh;
+}
+
+footer > a > img:hover{
+    transform: rotate(360deg);
+    opacity: 1;
+    transition: all 500ms linear;
 }
 
 @media (width <=600px) {
