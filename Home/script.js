@@ -1,6 +1,9 @@
+alert("Seja Bem-vindo!")
+
 var nomeGlobal;
 var msgGlobal;
 
+// FUNÇÃO COFERIR E ENVIAR MENSAGEM PARA WHATSAPP //
 function conferirMensagemWhatsApp() {
   var nome = document.getElementById("nome").value;
   var mensagem = document.getElementById("mensagem").value;

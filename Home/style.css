@@ -106,7 +106,6 @@ button:hover {
     width: 500px;
     height: 500px;
     transition: all 200ms linear;
-    filter: grayscale(100%);
 
 }
 
